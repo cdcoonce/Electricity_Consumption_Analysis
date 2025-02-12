@@ -85,13 +85,13 @@ consumption.head()
 
 The dataset was resampled to an hourly frequency to visualize trends across different zones for January 2017. This area chart reveals how consumption varies over the course of a day.
 
-[Hourly Electricity Consumption by Zone - January 2017](/Electricity_Consumption_Analysis/assets/stacked_area.png)
+[Hourly Electricity Consumption by Zone - January 2017](/assets/stacked_area.png)
 
 ### Seasonality and Heatmap Visualization
 
 A heatmap was created to visualize average total consumption by day of the week and hour of the day. This visualization helps to quickly identify peak load periods.
 
-[Average power consumption by Day of Week and Hour](/Electricity_Consumption_Analysis/assets/heatmap.png)
+[Average power consumption by Day of Week and Hour](/assets/heatmap.png)
 
 ## Conclusions
 
