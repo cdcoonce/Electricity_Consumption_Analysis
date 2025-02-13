@@ -17,6 +17,7 @@ This portfolio project examines seasonal patterns in electricity consumption for
     - [Hourly Consumption Trends](#hourly-consumption-trends)
     - [Seasonality and Heatmap Visualization](#seasonality-and-heatmap-visualization)
   - [Conclusions](#conclusions)
+  - [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -101,3 +102,7 @@ The analysis reveals clear seasonal trends:
 - Daily Patterns: Specific days show higher average consumption, suggesting targeted times for investment in capacity or demand management.
 
 These insights can guide Morocco’s National Power Co. in optimizing grid reliability and planning preventive measures for high-demand periods.
+
+## Acknowledgments
+
+This project was completed as part of a guided learning experience with **Maven Analytics**. Special thanks to Maven Analytics for providing structured guidance and high-quality datasets to enhance analytical skills. 
