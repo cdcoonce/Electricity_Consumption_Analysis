@@ -96,7 +96,8 @@ A heatmap was created to visualize average total consumption by day of the week 
 ## Conclusions
 
 The analysis reveals clear seasonal trends:
-    - Hourly Patterns: Consumption fluctuates significantly over the day, with identifiable peak periods.
-    - Daily Patterns: Specific days show higher average consumption, suggesting targeted times for investment in capacity or demand management.
+
+- Hourly Patterns: Consumption fluctuates significantly over the day, with identifiable peak periods.
+- Daily Patterns: Specific days show higher average consumption, suggesting targeted times for investment in capacity or demand management.
 
 These insights can guide Morocco’s National Power Co. in optimizing grid reliability and planning preventive measures for high-demand periods.
