@@ -18,6 +18,15 @@ This portfolio project examines seasonal patterns in electricity consumption for
     - [Seasonality and Heatmap Visualization](#seasonality-and-heatmap-visualization)
   - [Conclusions](#conclusions)
   - [Acknowledgments](#acknowledgments)
+  - [🚀 Getting Started](#-getting-started)
+    - [🧰 Prerequisites](#-prerequisites)
+    - [📥 Clone the Repository](#-clone-the-repository)
+    - [📦 Install Dependencies](#-install-dependencies)
+      - [On macOS / Linux](#on-macos--linux)
+      - [On Windows (PowerShell)](#on-windows-powershell)
+    - [📓 Run the Jupyter Notebook](#-run-the-jupyter-notebook)
+  - [📁 Project Structure](#-project-structure)
+  - [📬 Feedback and Contributions](#-feedback-and-contributions)
 
 ## Introduction
 
@@ -106,3 +115,97 @@ These insights can guide Morocco’s National Power Co. in optimizing grid relia
 ## Acknowledgments
 
 This project was completed as part of a guided learning experience with **Maven Analytics**. Special thanks to Maven Analytics for providing structured guidance and high-quality datasets to enhance analytical skills. 
+
+---
+
+## 🚀 Getting Started
+
+This project uses [**uv**](https://github.com/astral-sh/uv) to manage Python environments and dependencies. It is designed to be run in a Jupyter Notebook environment.
+
+### 🧰 Prerequisites
+
+Install `uv` if you haven’t already:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Verify it’s working:
+
+```bash
+uv --version
+```
+
+---
+
+### 📥 Clone the Repository
+
+Use the following command to clone this repository:
+
+```bash
+git clone https://github.com/cdcoonce/Electricity_Consumption_Analysis.git
+cd Airbnb_Listing_Analysis
+```
+
+---
+
+### 📦 Install Dependencies
+
+Create a virtual environment and install dependencies:
+
+#### On macOS / Linux
+
+```bash
+uv venv
+source .venv/bin/activate
+uv sync
+```
+
+#### On Windows (PowerShell)
+
+```powershell
+uv venv
+.venv\Scripts\Activate
+uv sync
+```
+
+> If using a `pyproject.toml`, you can install it in editable mode:
+
+```bash
+uv pip install -e .
+```
+
+---
+
+### 📓 Run the Jupyter Notebook
+
+Make sure ipykernel is installed:
+
+```bash
+uv pip install ipykernel
+```
+
+---
+
+## 📁 Project Structure
+
+```
+your-repo-name/
+├── notebooks/
+│   └── EDA.ipynb
+├── data/
+│   └── ...
+├── assets/
+│   └── ...
+├── pyproject.toml
+├── README.md
+└── ...
+```
+
+---
+
+## 📬 Feedback and Contributions
+
+Feel free to open issues or submit PRs!
+
+---
